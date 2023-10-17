@@ -1,0 +1,29 @@
+body {
+background: linear-gradient(217deg, rgba(255, 235, 221, 1), rgba(255, 235, 221, 0) 70%), 
+            linear-gradient(127deg, rgba(163, 143, 123, 1), rgba(163, 143, 123, 0) 70%), 
+            linear-gradient(336deg, rgba(255, 167, 112, 1), rgba(255, 167, 112, 0) 70%);
+width: 100vw;
+height: 100vh;
+}
+
+#search-button:focus {
+    box-shadow: none;
+}
+
+#remove-button:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color:black;
+}
+
+#gif-list {
+    max-height: 85vh;
+    max-width: 85vw;
+    overflow-y: auto;
+}
+
+img {
+    width:100%;
+}
